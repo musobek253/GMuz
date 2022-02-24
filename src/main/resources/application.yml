@@ -1,0 +1,9 @@
+Spring:
+  datasource:
+    url:  "jdbc:postgresql://localhost:5432/gmauto"
+    username: "postgres"
+    password: "user"
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
